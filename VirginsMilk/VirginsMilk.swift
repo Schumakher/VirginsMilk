@@ -8,9 +8,9 @@
 
 import Foundation
 
-class VirginsMilk {
+public class VirginsMilk {
     
-    public init() {}
+    public required init() {}
     
     public func validatePassword(requirements: PasswordRequirements, password: String) -> Bool {
         

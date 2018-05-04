@@ -104,7 +104,7 @@ public class PasswordRequirements {
         private var fromGivenChars: [Character]?
         private var containVirginsMilk: Bool?
         
-        public init(minCharCount: Int, maxCharCount: Int) {
+        public required init(minCharCount: Int, maxCharCount: Int) {
             self.minCharCount = minCharCount
             self.maxCharCount = maxCharCount
         }

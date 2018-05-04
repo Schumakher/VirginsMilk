@@ -8,13 +8,13 @@
 
 import Foundation
 
-public class PasswordValidator {
+internal class PasswordValidator {
     
     private final var password: String
     private final var requirements: PasswordRequirements
     
  
-    required public init(password: String, requirements: PasswordRequirements) {
+    required internal init(password: String, requirements: PasswordRequirements) {
         self.password = password.trimmingCharacters(in: .whitespacesAndNewlines)
         self.requirements = requirements
     }
