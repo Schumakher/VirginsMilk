@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "VirginsMilk is an elegant password validator based on builder design pattern for password requirements"
 
-  s.homepage     = "https://fly.co.de/"
+  s.homepage     = "https://github.com/Schumakher/VirginsMilk"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -63,10 +63,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  # s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "VirginsMilk", "VirginsMilk/**/*.{h,m}"
+  s.source_files  = "VirginsMilk", "VirginsMilk/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -110,6 +110,7 @@ Pod::Spec.new do |s|
 
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+s.swift_version = "3.2"
 
 
 end

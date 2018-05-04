@@ -31,7 +31,7 @@ public class PasswordRequirements {
         uniqueCharCount: Int,
         fromGivenCharCount: Int,
         fromGivenChars: [Character],
-    containVirignsMilk: Bool) {
+    containVirginsMilk: Bool) {
         
         self.uppercaseCount = uppercaseCount
         self.lowercaseCount = lowercaseCount
@@ -173,7 +173,7 @@ public class PasswordRequirements {
                 uniqueCharCount: uniqueCharCount ?? 0,
                 fromGivenCharCount: fromGivenCharCount ?? 0,
                 fromGivenChars: fromGivenChars ?? [],
-                containVirignsMilk: containVirginsMilk ?? false)
+                containVirginsMilk: containVirginsMilk ?? false)
         }
     }
 }
